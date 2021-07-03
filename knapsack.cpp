@@ -4,7 +4,7 @@ using namespace std;
 
 void knapsack(int wt[],int val[],int capacity,int n)
 {
-    int dp[n+1][capacity+1];
+    int dp[n+1][capacity+1]; 
     for(int i=0;i<(n+1);i++)
     {
         for(int j=0;j<(capacity+1);j++)
